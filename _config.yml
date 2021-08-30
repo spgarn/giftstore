@@ -33,22 +33,22 @@ author:
   email:
   social_links:
     - name: facebook
-      url:
+      url: www.facebook.com/giftstoreSweden
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
+      url: 
     - name: instagram
-      url:
+      url: www.instagram.com/giftstoreSweden
     - name: linkedin
-      url:
+      url: www.linkedin.com/giftstoreSweden
     - name: stackoverflow
       url:
     - name: twitter
-      url: 
+      url: www.twitter.com/giftstoreSweden
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texture</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
+  section1: <h1>Coming soon</h1>
+  section2: <h2>Stay tuned for amazing gifts</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
