@@ -99,11 +99,13 @@ textarea {
 
 .textForm{
     border-radius: 12px;
+    padding:18px
 }
 
 .textFieldBig{
 width: 60%;
 height: 120px;
+margin-top: 8px;
 }
 
 .textFieldSmall{
@@ -185,13 +187,18 @@ height: 120px;
     $icon-size: 64px;
     a {
         display: inline-block;
+ 
 
         width: $icon-size;
         height: $icon-size;
         margin: 18px;
 
         background-size: $icon-size $icon-size;
-    }
+    };
+    div{
+        display: flex;
+        flex-direction: row;
+    };
 }
 
 @import 'simple-texture/home/responsive';

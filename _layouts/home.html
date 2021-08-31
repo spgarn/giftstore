@@ -31,15 +31,19 @@
         {% include common/notices.html %}
 
         <div class="headings animated fadeInLeft">
+            <img style="width: 15%;" src="../assets/images/Logo.png"/>
             {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
-            {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
+            <!-- {% if site.home.section2 %}{{ site.home.section2 }}{% endif %} -->
             <!-- {% if site.home.section3 %}{{ site.home.section3 }}{% endif %} -->
+            <div class="social-links">
             {% for link in site.author.social_links %}
+            
             {% if link.url %}
-                <a class="btn-light ico-{{ link.name }}" href="{{ link.url }}" rel="me" target="_blank" title="{{ link.name }}"></a>
+                <a class="ico-{{link.name}} btn" href="https://{{ link.url }}" rel="me" target="_blank" title="{{ link.name }}"></a>
             {% endif %}
-        {% endfor %}
            
+        {% endfor %}
+    </div>
             
         </div>
         <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
@@ -63,19 +67,19 @@
         <section>
               <form id="sendemail" action="https://formspree.io/f/xqkwwenb" method="POST">
                 <div class="textForm" style="width: 80%; margin: 0 auto;">
-                  <div class="textForm" style="padding: 12px;" >
+                  <div class="textForm"  >
                     <input class="textFieldSmall" type="text" name="name" id="name" value="" placeholder="Namn" />
                   </div>
-                  <div class="textForm"style="padding: 12px;">
+                  <div class="textForm">
                     <input class="textFieldSmall" required type="email" name="email" id="email" value="" placeholder="Email" />
                   </div>
-                  <div class="textForm" style="padding: 12px;">
+                  <div class="textForm" >
                     <input class="textFieldSmall" required type="text" minlength="2" name="subject" id="subject" value="" placeholder="Ämne" />
                   </div>
-                  <div class="textForm" style="padding: 12px;">
+                  <div class="textForm" >
                     <textarea class="textFieldBig" required name="textbody" id="textbody" placeholder="Skriv ditt meddelande här" rows="6"></textarea>
                   </div>
-                  <div class="textForm" style="padding: 12px;">
+                  <div class="textForm" >
                    
                       <input class="textFieldSmall" type="submit" value="Skicka meddelande" class="special" />
                     
