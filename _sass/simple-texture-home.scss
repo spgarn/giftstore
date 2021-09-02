@@ -99,17 +99,17 @@ textarea {
 
 .textForm{
     border-radius: 12px;
-    padding:18px
+    padding:18px 0px
 }
 
 .textFieldBig{
-width: 60%;
+width: clamp(350px,60%,800px);
 height: 120px;
 margin-top: 8px;
 }
 
 .textFieldSmall{
-    width: 60%;
+    width: clamp(350px,60%,800px);
     height: 40px;
     }
 
